@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume Builder By Faraz</h1>
+    <form id="resumeform">
+
+        <fieldset>
+            <legend>Parsonal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  required>
+
+            <label for="phone">phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+<!-- Profile Picture -->
+            <label for="profilePicture">Profile Picture</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/" required>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education</label>
+            <textarea name="feedback" id="feedback" rows="5"></textarea>
+            <br>
+        </fieldset>
+<br>
+
+        <fieldset>
+            <legend> work Experience</legend>
+            <label for=" Work Experience">Work Experience</label>
+            <textarea name="feedback" id="feedback" rows="5"></textarea>
+            <br>
+        </fieldset>
+<br>
+
+        <fieldset>
+            <legend>Skill</legend>
+            <label for="Skill">Skill</label>
+            <textarea name="feedback" id="feedback" rows="5"></textarea>
+            <br>
+        </fieldset>
+
+        <button type="submit">Genrate Resume Blow</button>
+
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>
